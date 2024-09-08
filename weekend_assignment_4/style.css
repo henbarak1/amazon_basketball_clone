@@ -1,0 +1,154 @@
+
+body{
+    font-size: small;
+}
+#top ul{
+    list-style: none;
+}
+#top li{
+    display: inline-block;
+}
+
+#middle ul{
+    list-style: none;
+}
+#middle li{
+    display: inline-block;
+}
+#bottom ul{
+    list-style: none;
+}
+#bottom li{
+    display: inline-block;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left;  */
+}
+
+#info ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+}
+#info li{
+    /* display: block; */
+}
+#first_info{
+    border-bottom: 1px solid rgb(168, 158, 158);
+}
+#middle_info{
+    border-bottom: 1px solid rgb(168, 158, 158);
+}
+#middle_info ul{
+    list-style: none;
+    padding-left: 0;
+}
+#middle_info li{
+    display: flex;
+    justify-content: space-between;
+
+}
+#bottom_info li{
+    list-style:circle;
+}
+
+#main_pic{
+    display: flex;
+    justify-content: left;
+    height: 70vh;  
+}
+#big_basketball{
+    height: 100%;
+    width: auto;
+
+}
+main{
+    display: grid;
+    grid-template-areas: "main_pic main_pic   info info  purchase";
+}
+#purchase{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    width:50vh;  
+}
+#commercial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vh;  
+}
+
+#ad_pic{
+    height: 100%;
+    width: auto;
+}
+.bold{
+    font-weight: bold;
+}
+#purchase{
+    padding-left: 5vw;
+    
+}
+#purchase_box{
+    border-style: solid;
+    border-color: rgb(168, 158, 158);
+    border-radius: 1vw ;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+}
+#add_to_cart{
+    background-color: rgba(241, 206, 7, 0.61);
+    text-align: center;
+    bottom: 35px;
+    
+}
+#add_to_List{
+    background-color: none;
+    text-align: left;
+    
+}
+#bottom{
+    display: flex;
+    flex-direction: column;
+}
+#top {
+    display: flex;
+    /* grid-template-areas:"toolbar_logo1 toolbar_logo2 toolbar_logo3 blank_white blank_white blank_white blank_white toolbar_logo4 toolbar_logo5 toolbar_logo6 toolbar_logo7 toolbar_logo8 " ; */
+
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(21, 21, 22);
+    height: 15vh;
+    color: white;
+}
+#top ul{
+    display: flex;
+    height: 10vh;
+}
+#blank_white{
+    background-color: white;
+    width: 200px;
+    height: 40px;
+
+}
+/* #{
+    height: 100%;
+    width: auto;
+} */
+ #middle{
+    background-color: rgb(67, 67, 164);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+ }
+ #green_message{
+    background-color: aquamarine;
+    border: 1 px solid black;
+ }
